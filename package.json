@@ -1,0 +1,19 @@
+{
+  "name": "codecept-playwright-pages",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:e2e": "npm run build && start-server-and-test \"npm run preview -- --host --port 4173\" http://127.0.0.1:4173 \"npx codeceptjs run --config codecept.conf.cjs --steps\""
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.7.5",
+    "playwright": "^1.57.0",
+    "start-server-and-test": "^2.1.3",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}
