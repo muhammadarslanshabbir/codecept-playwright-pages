@@ -20,6 +20,8 @@ A small Vite + TypeScript app deployed to GitHub Pages with end-to-end coverage 
 
 `vite.config.ts` sets `base` to `/codecept-playwright-pages/` so assets resolve correctly on Pages. Update that value if you rename the repo.
 
+CI status: ![CI](https://github.com/muhammadarslanshabbir/codecept-playwright-pages/actions/workflows/ci.yml/badge.svg)
+
 ## Pushing to GitHub
 
 ```bash
